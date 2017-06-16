@@ -38,7 +38,7 @@ html, body, .swiper-container, .swiper-slide {
 .music .control {
     width: 2.5em;
     height: 2.5em;
-    background: url('images/public/music_1.gif') transparent no-repeat center center;
+    background: url('../images/public/music_1.gif') transparent no-repeat center center;
     background-size: contain;
 }
 
@@ -50,7 +50,7 @@ html, body, .swiper-container, .swiper-slide {
     left: 50%;
     margin-top: -.75em;
     margin-left: -.75em;
-    background: url('images/public/music_icon.png') transparent no-repeat center center;
+    background: url('../images/public/music_icon.png') transparent no-repeat center center;
     background-size: 100% 100%;
     -webkit-animation: rotate2d 1.2s linear infinite both;
     animation: rotate2d 1.2s linear infinite;
@@ -71,7 +71,7 @@ html, body, .swiper-container, .swiper-slide {
     left: 0;
     right: 0;
     bottom: .5em;
-    background: url('images/public/slide_tip.png') no-repeat;
+    background: url('../images/public/slide_tip.png') no-repeat;
     background-size: 100% 100%;
     -webkit-animation: TipAfter 1.5s infinite ease-in-out;
     animation: TipAfter 1.5s infinite ease-in-out;
@@ -100,7 +100,7 @@ html, body, .swiper-container, .swiper-slide {
 
 /* slide1 /////////////////////////////////////////////////////*/
 .page1 {
-    background-image: url(images/slide1/bg1.jpg);
+    background-image: url(../images/slide1/bg1.jpg);
 }
 
 .page1 *, .page2 *, .page3 *, .page4 *, .page5 * {
@@ -212,7 +212,7 @@ html, body, .swiper-container, .swiper-slide {
 
 /* slide2 /////////////////////////////////////////////////////*/
 .page2 {
-    background-image: url(images/slide2/bg2.jpg);
+    background-image: url(../images/slide2/bg2.jpg);
 }
 
 #page2 .page-inner1 {
@@ -289,7 +289,7 @@ html, body, .swiper-container, .swiper-slide {
 
 /* slide3 /////////////////////////////////////////////////////*/
 .page3 {
-    background-image: url(images/slide2/bg2.jpg);
+    background-image: url(../images/slide2/bg2.jpg);
 }
 
 #page3 .page-inner1 {
@@ -574,7 +574,7 @@ html, body, .swiper-container, .swiper-slide {
 
 /* slide4 /////////////////////////////////////////////////////*/
 .page4 {
-    background-image: url(images/slide2/bg2.jpg);
+    background-image: url(../images/slide2/bg2.jpg);
 }
 
 #page4 .page-inner1 {
@@ -645,7 +645,7 @@ html, body, .swiper-container, .swiper-slide {
 
 /* slide5 /////////////////////////////////////////////////////*/
 .page5 {
-    background-image: url(images/slide2/bg2.jpg);
+    background-image: url(../images/slide2/bg2.jpg);
 }
 
 #page5 .page-inner1 {
