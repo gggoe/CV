@@ -219,8 +219,8 @@ html, body, .swiper-container, .swiper-slide {
     position: absolute;
     width: 100px;
     height: 100px;
-
-    left: 33%;
+    left: 50%;
+    margin-left:-50px;
     top: 20%;
     /*background: coral;*/
     background:url('../images/slide2/treeHole.jpg') no-repeat;
