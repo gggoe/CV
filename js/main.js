@@ -35,25 +35,21 @@ var mySwiper = new Swiper('.swiper-container', {
     var music = document.getElementById('music-audio');
     var musicBg = document.getElementsByClassName('control')[0];
     var pauseBtn = document.getElementsByClassName('control-after')[0];
-    console.log(audioBtn, music)
     var flag = true;
     audioBtn.onclick = function () {
-        console.log(111)
-
         flag = !flag;
         if (flag) {
             music.play();
             musicBg.style.background="url('./images/public/music_1.gif') transparent no-repeat center center";
             musicBg.style.backgroundSize="contain";
             pauseBtn.style.animationPlayState='running';
+            console.log('音乐开');
         } else{
             music.pause();
             musicBg.style.background='none';
             pauseBtn.style.animationPlayState='paused';
-
+            console.log('音乐关');
         }
-
-        console.log(flag);
     }
 
 }();
